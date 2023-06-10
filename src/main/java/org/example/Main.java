@@ -8,8 +8,8 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args)  {
 
-        File excelFile = new File("C:\\Users\\Kush\\OneDrive\\Expense Account\\2023\\January - Copy.xlsx");
-        File sqlFile = new File("sql.sql");
+        File excelFile = new File("excel.xlsx");
+        File sqlFile = new File("data.sql");
         Converter converter = new Converter(excelFile, sqlFile);
 
         try{
